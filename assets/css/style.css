@@ -35,7 +35,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     border-right: 1px solid #cccccc;
-
+    overflow: auto;
 }
 #navbar a:last-child {
     border: none;
@@ -55,17 +55,17 @@ h2 {
     border-bottom: 1px solid #cccccc;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     z-index: 0;
 }
+
 #image {
-    width: 200px;
-    height: 250px;
-    margin: 10px 0 25px 25px;
+    width: 100%;
+    height: auto;
 }
 h3 {
     background-color: #4aaaa5;
@@ -77,7 +77,6 @@ h3 {
     text-align: center;
 }
 .col-sm {
-    padding: 20px;
     margin: auto;
 }
 
@@ -108,3 +107,40 @@ h3 {
     color: #eeeeee;
     font-size: smaller;
 }
+
+#imgCon {
+    padding-bottom: 3%
+}
+
+@media screen and (max-width: 640px){
+    #links{
+        overflow: none;
+        width: 100%;
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #name {
+        margin: none;
+        padding: none;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        left: 0;
+    }
+    header {
+        padding: 0;
+    }
+    #navbar {
+        float: none;
+        width: 100%;
+        margin: none;
+        padding: none;
+        text-align:center;
+    }
+    .container {
+        margin-top: 150px;
+    }
+}
+
+
