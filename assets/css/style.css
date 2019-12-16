@@ -47,8 +47,10 @@ body {
 .container {
     border: 1px solid #cccccc;
     background-color: #ffffff;
-    margin-top: 100px;
     margin-bottom: 100px;
+    margin-top: 100px;
+    width: 65%;
+    padding: 25px;
 }
 h2 {
     padding: 20px 10px 20px 10px;
@@ -110,6 +112,37 @@ h3 {
 
 #imgCon {
     padding-bottom: 3%
+}
+
+.projectLinks {
+    color: white;
+}
+
+.projectLinks:hover {
+    color: darkgray;
+    text-decoration: none;
+}
+
+#resume {
+    color: black;
+    text-decoration: none;
+}
+
+#resume:hover {
+    color: darkgray;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#github {
+    color: black;
+    text-decoration: none;
+}
+
+#github:hover {
+    color: darkgray;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 640px){
