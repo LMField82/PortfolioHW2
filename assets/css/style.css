@@ -1,39 +1,40 @@
 header {
-    background-color: #ffffff;
     padding: 22px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     left: 0;
-    border: 1px solid #cccccc;
-    z-index: 10;
+   
 }
 body {
-    background-image: url('../images/hotel-wallpaper\ copy.png');
+    background-image: linear-gradient(#e8d22e, #c95d5a, #6d5e61);
     background-color: gray;
 }
 #name {
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 32px;
+    /* background-color: #4aaaa5; */
+    color: #777777;
+    font-size: 42px;
     padding: 11px;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    width: 50%;
+    top: 5px;
     left: 90px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-radius: 5%; */
+    /* opacity: 0.8; */
 }
 #navbar {
     float: right;
-    margin-right: 20px;    
+    margin-right: 20px;  
+    padding-top: 20px; 
 }
 #navbar a {
     text-decoration: none;
     padding-right: 20px;
     padding-left: 20px;
     color: #777777;
-    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     border-right: 1px solid #cccccc;
     overflow: auto;
 }
@@ -41,7 +42,7 @@ body {
     border: none;
 }
 #navbar a:hover {
-    font-size: 20px;
+    font-size: 28px;
     color: gray;
 }
 .container {
@@ -49,14 +50,15 @@ body {
     background-color: #ffffff;
     margin-bottom: 100px;
     margin-top: 100px;
-    width: 65%;
+    width: 80%;
     padding: 25px;
+    border-radius: 5%;
 }
 h2 {
     padding: 20px 10px 20px 10px;
     border-bottom: 1px solid #cccccc;
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 }
 img {
@@ -68,11 +70,12 @@ img {
 #image {
     width: 100%;
     height: auto;
+    border-radius: 10%;
 }
 h3 {
     background-color: #4aaaa5;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     bottom: 100px;
     padding: 15px 0px 15px 0px;
